@@ -1,7 +1,7 @@
 
 const url= 'https://www.thecocktaildb.com/api/json/v1/1/random.php'
 
-const $drink=$('#drink');
+const $drink = $('#drink');
 
 const $get_drink = $('#get_drink');
 
@@ -19,7 +19,11 @@ function getDrinks (event){
 }
 
 function render () {
-	$drink.text('drink name ' + drinkList.drinks[0].strDrink);
+	$drink.text('Drink Name ' + drinkList.drinks[0].strDrink);
+	// $glass.text('drink glass' + drinkList.glass[0].strGlass);
+	// $instrucions.text('drink instructions ' + drinkList.instructions[0].strInstructions);
+	// $ingredients.text('drink ingredients ' + drinkList.ingredients[0].strIngredients);
+
 
 }
 /*
