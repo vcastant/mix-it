@@ -19,7 +19,7 @@ function getDrinks (event){
 }
 
 function render () {
-	$drink.text('Drink Name ' + drinkList.drinks[0].strDrink);
+	$drink.text('Drink Name: ' + drinkList.drinks[0].strDrink);
 	// $glass.text('drink glass' + drinkList.glass[0].strGlass);
 	// $instrucions.text('drink instructions ' + drinkList.instructions[0].strInstructions);
 	// $ingredients.text('drink ingredients ' + drinkList.ingredients[0].strIngredients);
@@ -28,7 +28,7 @@ function render () {
 }
 /*
 previous code
-
+>
 const get_drink_btn = document.getElementById('get_drink');
 const drink_container = document.getElementById('drink');
 
