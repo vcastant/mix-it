@@ -7,8 +7,6 @@ Motivation:
 After a click of a button detailed information on each drink is randomly generated including the type of glass you should use, the method, the ingredients, the tools you might need, and step-by-step instructions.
 
 Screenshots:
-
-
 Tech/framework used:
 
 JavaScript,
